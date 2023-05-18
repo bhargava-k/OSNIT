@@ -13,7 +13,7 @@ class Scraper:
   def __init__(self, username: str) -> None:
     self.username: str = username
     self.headers: dict = {
-      'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA'}
+      'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRIL------'}
     self.scraped: int = 0
 
   def __save_results(self, users: list) -> None:
