@@ -12,7 +12,7 @@ def __user_input() -> str:
 def get_user_details(username: str) -> dict:
     url = f"https://api.twitter.com/1.1/users/show.json?screen_name={username}"
     headers = {
-        'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA',
+        'Authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgA---------------------------',
     }
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
