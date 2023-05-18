@@ -19,11 +19,11 @@ args = parser.parse_args()
 
 # Replace these with your own Facebook login cookies
 cookies = {
-    'datr': 'PwwyZOsBfXX1QblvXq7RdXXL',
-    'sb': 'bWRMZJ90e6xZ8V3-i-CDM3nL',
-    'c_user': '100004889646019',
-    'xs': '35%3A-JNjLxCYiKbNLA%3A2%3A1682728407%3A-1%3A5653',
-    'fr': '0FVbdeFhB1pvfZrgy.AWXCoMCE0Zc-SXnBKCYYZuwAWTk.BkTGRt.5F.AAA.0.0.BkTGXW.AWWv69936vw',
+    'datr': 'P----------------',
+    'sb': 'bW------------',
+    'c_user': '100004----------------',
+    'xs': '3--------------------------------------------',
+    'fr': '0F--------------------------------------------------------------------------------',
 }
 
 # Set the cookies
